@@ -1,106 +1,79 @@
-# 📊 Asimov Academy - Data Science & Machine Learning
+# Data Science Journey
 
-Repositório de estudos focado em Data Science e Machine Learning, desenvolvido durante o curso da Asimov Academy.
+> Repositório dedicado à minha jornada de aprendizado em Ciência de Dados e Análise de Dados
 
-## 🎯 Objetivo
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-Consolidar conhecimentos em análise de dados, manipulação com Pandas, visualização e algoritmos de Machine Learning através de projetos práticos e atividades.
+## Sobre o Projeto
 
-## 🗂️ Estrutura do Projeto
+Este repositório documenta minha trajetória de estudos em Data Science, contendo exercícios, projetos práticos e experimentos com diferentes bibliotecas e conceitos fundamentais da área.
 
-```
-.
-├── Atividades-basicas/          # Exercícios fundamentais de Python
-│   ├── calc.py                  # Calculadora básica
-│   └── locadora.py              # Sistema de locadora
-│
-├── Atividades-poo/              # Programação Orientada a Objetos
-│   └── gym.py                   # Sistema de gerenciamento de academia
-│
-├── conceitos-basicos-pandas/    # Análise de dados com Pandas
-│   ├── 1.0.supermarket.ipynb    # Análise de vendas de supermercado
-│   └── Datasets/                # Datasets para análise
-│       ├── supermarket_sales.csv
-│       ├── gasolina_2000+.csv
-│       ├── GDP.csv
-│       └── obesity_cleaned.csv
-│
-└── main.py                      # Script principal
-```
+## Estrutura do Repositório
 
-## 🛠️ Tecnologias Utilizadas
+### Atividades Básicas
+Exercícios fundamentais de Python para construção de lógica de programação:
+- **calc.py** - Operações matemáticas e calculadoras
+- **locadora.py** - Sistema de gerenciamento de locadora
 
-- **Python 3.13+**
+### Atividades POO
+Aplicação de conceitos de Programação Orientada a Objetos:
+- **gym.py** - Sistema de gerenciamento de academia
+
+### Conceitos Básicos - Pandas
+Notebooks explorando os fundamentos da biblioteca Pandas:
+- **1.0.supermarket.ipynb** - Análise de dados de supermercado
+- **2. Series.ipynb** - Trabalhando com Series do Pandas
+- **3. DataFrames.ipynb** - Manipulação de DataFrames
+
+### Datasets
+Conjunto de dados utilizados nos estudos:
+- Dados de vendas de supermercado
+- Séries históricas de preços de gasolina
+- Dados de GDP (Produto Interno Bruto)
+- Dados de obesidade global
+
+## Tecnologias Utilizadas
+
+- **Python** - Linguagem principal
 - **Pandas** - Manipulação e análise de dados
-- **NumPy** - Computação numérica
-- **Scikit-learn** - Machine Learning
-- **Jupyter Notebook** - Análises interativas
+- **Jupyter Notebook** - Ambiente interativo para análise de dados
 
-## 🚀 Como Usar
+## Como Utilizar
 
-### Pré-requisitos
-
-- Python 3.13 ou superior
-- [uv](https://github.com/astral-sh/uv) (gerenciador de pacotes)
-
-### Instalação
-
+1. Clone o repositório:
 ```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/asimov-academy.git
+git clone <url-do-repositorio>
 cd asimov-academy
-
-# Instale as dependências
-uv sync
-
-# Ative o ambiente virtual
-source .venv/bin/activate  # Linux/macOS
-# ou
-.venv\Scripts\activate     # Windows
 ```
 
-### Executando os Notebooks
-
+2. Instale as dependências:
 ```bash
-# Inicie o Jupyter
+pip install -r requirements.txt
+# ou com poetry
+poetry install
+```
+
+3. Execute os notebooks Jupyter:
+```bash
 jupyter notebook
 ```
 
-## 📚 Conteúdo dos Estudos
+## Aprendizados
 
-### Conceitos Básicos Python
-- ✅ Estruturas de dados
-- ✅ Funções e modularização
-- ✅ Programação Orientada a Objetos
+Este repositório reflete minha progressão desde conceitos básicos de Python até análises mais complexas com Pandas, incluindo:
 
-### Pandas & Análise de Dados
-- ✅ Manipulação de DataFrames
-- ✅ Limpeza e transformação de dados
-- ✅ Agregações e operações estatísticas
-- ✅ Análise exploratória (EDA)
+- Fundamentos de Python
+- Programação Orientada a Objetos
+- Manipulação de dados com Pandas
+- Análise exploratória de dados
+- Visualização de dados
 
-### Machine Learning
-- 🔄 Em progresso...
+## Contato
 
-## 📈 Projetos
-
-### 🛒 Análise de Vendas de Supermercado
-Análise exploratória de dados de vendas utilizando Pandas para identificar padrões de consumo e tendências.
-
-**Notebook**: [1.0.supermarket.ipynb](conceitos-basicos-pandas/1.0.supermarket.ipynb)
-
-## 🤝 Contribuindo
-
-Este é um repositório de estudos pessoal, mas sugestões e feedbacks são bem-vindos!
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT - veja o arquivo LICENSE para detalhes.
-
-## 📧 Contato
-
-Fabricio - [@sFabricio-Fontenele](https://github.com/Fabricio-Fontenele)
+Fabricio - [GitHub](https://github.com/Fabricio-Fontenele)
 
 ---
 
-⭐ **Dica**: Marque este repositório com uma estrela se você achou útil para seus estudos!
+**Nota:** Este é um projeto educacional em constante evolução. Novos conteúdos e projetos serão adicionados conforme avanço nos estudos.
