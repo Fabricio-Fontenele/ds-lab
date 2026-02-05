@@ -44,8 +44,8 @@ Conjunto de dados utilizados nos estudos:
 
 1. Clone o repositório:
 ```bash
-git clone <url-do-repositorio>
-cd asimov-academy
+git clone https://github.com/Fabricio-Fontenele/ds-lab.git
+cd ds-lab
 ```
 
 2. Instale as dependências:
